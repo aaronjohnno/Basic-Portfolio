@@ -1,9 +1,16 @@
-body {
-    margin:0;
-    padding:0;
-    background:url("http://clyde.haywood.k12.nc.us/wp-content/uploads/sites/3/2015/08/first-day-of-school.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
+body { 
+   
+    background-image: url("assets/images/dust_scratches.png");
+    
+};
+
+.Green {
+	font size: 100px;
+	color: green;
+};
+
+.AboutImage {
+	width: 125px;
+	height: 225px;
+};

@@ -1,40 +1,63 @@
+<!-- UM Coding Bootcamp Assignment 1 -->
+
 <!DOCTYPE html>
-<html>
-      <head>
-    <div>
-      <h1>Aaron Johnston</h1>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="style.css">
-            <nav id="topnav">
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aaron Johnston Page</title>
+  
+  <!-- Linking CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Site Header -->
+  <header>
+    <!-- h1: The most important headline -->
+    <h1>Aaron Johnston</h1>
+
+    <nav id="topnav">
                   <a href="about.html">About</a> |
                   <a href="portfolio.html">Portfolio</a> |
-                  <a href="contact.html">Contact</a>          
-            </nav>
-      </div>
-      </head>
-      <body>
-      
-                  <section>
-                          <article>
-                                  <h2>About Me</h2>
-                                  <img src="https://avatars3.githubusercontent.com/u/33710605?s=460&v=4"/>
-                                      <p>My name is Aaron. I was born in the southern hemisphere on a medium-sized island called Australia. I sometimes go by my middle name, Raymond. This seems to be an easier name to pronouce for most Americans and cuts down on any confusion surrounding my gender, as "Erin" can give some the wrong impression. 
-                                      </p>
-                          </article>
-                  </section>
-            <aside>
-                  <section>
-                            <h2>Connect with me</h2>
-                            <nav>
-                            <a href="https://github.com/aaronjohnno">img Github</a> |
-                            <a href="p">img LinkedIn</a> |
-                            <a href="https://stackoverflow.com/users/9217592/aaron-johnston">img Stackoverflow</a>          
-                            </nav>
-                  </section>
-            </aside>
-                  <footer>
-                          <p class="love">Copyright 2018 Aaron Johnston</p>
-                  </footer>
-            
-      </body>
+                  <a href="contact.html">Contact</a>    
+                  
+  </header>
+
+  <div class="container">
+
+    <!-- Section 1: Bio -->
+    <section id="Bio">
+      <!-- h2: Tier-2 Headline -->
+      <h2>About Me</h2>
+
+      <!-- Image with link -->
+      <img class="AboutImage" src="assets/images/profile picture.png" style="width:125px;height:225px" alt="headshot of Aaron Johnston">
+
+      <!-- Paragraph -->
+      <p>My name is Aaron. I was born in the southern hemisphere on a medium-sized island called Australia. I sometimes go by my middle name, Raymond. This seems to be an easier name to pronouce</p>
+    </section>
+
+    <!-- Section 2: Contact Info -->
+    <section id="contactInfo">
+
+      <!-- h2: Tier-2 Headline -->
+      <h2>Contact Info</h2>
+
+      <!-- Connect With Me -->
+
+      <ul>
+        <li><a href="https://github.com/aaronjohnno">img Github</a></li>
+        <li><a href="p">img LinkedIn</a></li>
+        <li><a href="https://stackoverflow.com/users/9217592/aaron-johnston">img Stackoverflow</a></li>
+      </ul>
+
+    </section>
+  </div>
+  <footer>
+     <p class="love">Copyright 2018 Aaron Johnston</p>
+  </footer>
+</body>
+
 </html>
