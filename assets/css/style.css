@@ -1,85 +1,76 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('../images/dust_scratches.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-color: #777777;
+}
 
 header {
-	width: 960px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-	color: #4aaaa5;
-	background-color: #ffffff;	
-	border-bottom-style: groove;
-	height: 63px;
-}
-
-h1 {
-	color: #ffffff;
-	background-color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-color: #ffffff;
-	text-align: center;
-	padding: 22px;
-	width: 200px;	
-	font-size: 24px;
-	
-}
-
-body { 
-   text-align: center;
-   background-image: url('../images/dust_scratches.png'); 
-   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-   font-size: 
-   font-color: #777777;
-   line-height: 120%;
-   margin: 15px;
-   padding: 15px;	
-}
-
-nav {
-	text-align: right;
-}
-
-a {
-	color: #777777;
-}
-
-.container {
-	width: 650px;
-	margin: 0 auto;
-}
-
-#bio {
-	width: 60%;
-	float: left;
-	background-color: white;
-	
-}
-#contactInfo {
-	width: 30%;
-	float: left;
-	
-}
-
-#bioImage {
-	margin-right: 20px;
-	width: 125px;
-	height: 220px;
-	float: left;
-	clear: both;
-	overflow: auto;
-	
+    color: #4aaaa5;
+    background-color: #ffffff;
+    height: 60px;
+    border-style: solid;
+    margin-bottom: 20px;
 }
 
 section {
-	border-style: groove;
-
+    background-color: blueviolet;
+    width: 650px;
+    float: left;
 }
 
 aside {
-	border-style: groove;
+    background-color: rgb(226, 43, 52);
+    width: 270px;
+    float: left;
+    margin-left: 20px;
+    border-style: solid;
 }
 
-article {
-	border-top-style: groove;
+footer {
+    background-color: brown;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 960px;
 }
 
+p {
+    background-color: darkgreen
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-color: #ffffff;
+    text-align: center;
+    
+    }
+.name {
+        float: left;
+    }
+.navbar {
+        float: left;
+        padding: 20px;
+    }
+.bioImage {
+        width: 125px;
+        height: 220px;
+        float: left;
+    }
+.contactInfo {}
+    
+.titles {
+        border-style: solid;
+    }
+a {
+        color: #777777;
+    }
 .clearfix {
-    overflow: auto;
-}
+        overflow: auto;
+    }
