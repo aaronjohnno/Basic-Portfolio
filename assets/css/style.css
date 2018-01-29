@@ -1,76 +1,99 @@
 .container {
+    overflow: auto;
     width: 960px;
-    margin: 0 auto;
+    margin: 0 auto;   
 }
 
 body {
     background-image: url('../images/dust_scratches.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 150%;
+    font-size: 18px;
+    color: #777777;
+    margin: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    color: #4aaaa5;
     background-color: #ffffff;
-    height: 60px;
+    height: 70px;
     border-style: solid;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #cccccc;
 }
 
 section {
-    background-color: blueviolet;
+    background-color: #ffffff;
     width: 650px;
     float: left;
+    border: 1px solid #dddddd;
 }
 
 aside {
-    background-color: rgb(226, 43, 52);
+    background-color: #ffffff;
     width: 270px;
     float: left;
     margin-left: 20px;
     border-style: solid;
+    border: 1px solid #dddddd;
 }
 
 footer {
-    background-color: brown;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-style: solid;
     clear: both;
     position: fixed;
-    bottom: 0;
-    width: 960px;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
 }
 
 p {
-    background-color: darkgreen
+
+}
+
+h2 {
+    color: #4aaaa5;
 }
 
 h1 {
     color: #ffffff;
-    background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-color: #ffffff;
     text-align: center;
-    
-    }
+}
+
 .name {
-        float: left;
-    }
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    border: 0.5px solid #4aaaa5;
+    background-color: #4aaaa5;
+}
+
 .navbar {
-        float: left;
-        padding: 20px;
-    }
+    float: left;
+    padding: 20px;
+    color: #777777;
+}
+
 .bioImage {
-        width: 125px;
-        height: 220px;
-        float: left;
-    }
+    width: 125px;
+    height: 220px;
+    float: left;
+}
+
 .contactInfo {}
-    
+
 .titles {
-        border-style: solid;
-    }
+    border-bottom: 1px solid #cccccc;
+}
+
 a {
-        color: #777777;
-    }
-.clearfix {
-        overflow: auto;
-    }
+    color: #777777;
+}
+
+.clearfix {}
