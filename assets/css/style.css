@@ -2,24 +2,23 @@
     overflow: auto;
     width: 960px;
     margin: 0 auto;   
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 body {
     background-image: url('../images/dust_scratches.png');
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 150%;
-    font-size: 18px;
     color: #777777;
-    margin: 30px;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #ffffff;
-    height: 70px;
+    height: 56px;
     border-style: solid;
-    margin-bottom: 30px;
     border: 1px solid #cccccc;
 }
 
@@ -44,7 +43,6 @@ footer {
     color: #ffffff;
     font-size: 12px;
     text-align: center;
-    margin-top: 50px;
     padding: 20px;
     border-style: solid;
     clear: both;
@@ -59,25 +57,34 @@ p {
 
 h2 {
     color: #4aaaa5;
+    
 }
 
 h1 {
     color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
+    font-size: 24px;
 }
 
 .name {
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
-    border: 0.5px solid #4aaaa5;
+    position: relative;
     background-color: #4aaaa5;
+    margin-left: 14.4%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .navbar {
-    float: left;
+    float: right;
+    font-size: 14px;
     padding: 20px;
     color: #777777;
+    margin-right: 21%;
+    display: inline;
+    position: relative;
 }
 
 .bioImage {
@@ -86,10 +93,15 @@ h1 {
     float: left;
 }
 
-.contactInfo {}
+.contactInfo {
+    display: inline;
+}
 
 .titles {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 1px solid #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a {
