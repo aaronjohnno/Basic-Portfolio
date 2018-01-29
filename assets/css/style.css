@@ -24,14 +24,14 @@ header {
 
 section {
     background-color: #ffffff;
-    width: 650px;
+    width: 520px;
     float: left;
     border: 1px solid #dddddd;
 }
 
 aside {
     background-color: #ffffff;
-    width: 270px;
+    width: 255px;
     float: left;
     margin-left: 20px;
     border-style: solid;
@@ -49,10 +49,13 @@ footer {
     position: fixed;
     width: 100%;
     border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
 }
 
 p {
-
+    font-size: 14px;
+    padding: 2px 20px 20px 30px;
 }
 
 h2 {
@@ -72,28 +75,29 @@ h1 {
     position: relative;
     background-color: #4aaaa5;
     margin-left: 14.4%;
+    margin-right: 23%;
     padding-left: 20px;
     padding-right: 20px;
     
 }
 
-.navbar {
-    float: right;
+.navbar >ul >li {
+    float: left;
     font-size: 14px;
-    padding: 20px;
     color: #777777;
-    margin-right: 21%;
     display: inline;
-    position: relative;
+    margin-left: 2%;
+    
 }
 
 .bioImage {
-    width: 125px;
+    width: 120px;
     height: 220px;
     float: left;
+    padding: 4px 20px 10px 20px;
 }
 
-.contactInfo {
+.contactInfo >ul >li {
     display: inline;
 }
 
@@ -106,6 +110,11 @@ h1 {
 
 a {
     color: #777777;
+}
+
+.contactImage {
+    width: 50px;
+    height: 50px;
 }
 
 .clearfix {}
